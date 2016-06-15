@@ -22,6 +22,8 @@ SimpleForm.setup do |config|
     # You can also pass a string as f.input placeholder: "Placeholder"
     b.use :placeholder
 
+
+
     ## Optional extensions
     # They are disabled unless you pass `f.input EXTENSION_NAME => true`
     # to the input. If so, they will retrieve the values from the model
@@ -54,6 +56,8 @@ SimpleForm.setup do |config|
 
   # The default wrapper to be used by the FormBuilder.
   config.default_wrapper = :default
+
+
 
   # Define the way to render check boxes / radio buttons with labels.
   # Defaults to :nested for bootstrap config.
@@ -98,7 +102,7 @@ SimpleForm.setup do |config|
   # config.item_wrapper_class = nil
 
   # How the label text should be generated altogether with the required text.
-  # config.label_text = lambda { |label, required, explicit_label| "#{required} #{label}" }
+  # config.label_text = lambda { |label, required| "#{label}" }
 
   # You can define the class to use on all labels. Default is nil.
   # config.label_class = nil
