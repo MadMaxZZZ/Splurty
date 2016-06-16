@@ -77,3 +77,21 @@ h2 {
         font-family: 'quicksandregular', sans-serif;
 
 }
+
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align: left;
+    }
+}
+
+.modal {
+    font-family: 'quicksandregular', sans-serif;
+}
+
+h2 span {
+    color: #065670;
+}
+
+::selection {
+    background-color: #108FB3;
+}
